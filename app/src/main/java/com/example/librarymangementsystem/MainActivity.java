@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(getApplicationContext(),LoginActivity.class);
                 startActivity(intent);
             }
-        }, 2000);   //5 seconds
+        }, 2000);   //2 seconds
 
 
     }

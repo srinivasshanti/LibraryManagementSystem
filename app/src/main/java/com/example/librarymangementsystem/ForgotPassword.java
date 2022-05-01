@@ -50,29 +50,6 @@ public class ForgotPassword extends AppCompatActivity {
                 }
 
 
-
-                // create new user or register new user
-//                mAuth.createUserWithEmailAndPassword(usn1, pword)
-//                        .addOnCompleteListener(new OnCompleteListener<AuthResult>() {
-//
-//                            @Override
-//                            public void onComplete(@NonNull Task<AuthResult> task)
-//                            {
-//                                if (task.isSuccessful()) {
-//                                    Toast.makeText(getApplicationContext(),"Registration successful!", Toast.LENGTH_LONG).show();
-//
-//                                    // if the user created intent to login activity
-//                                    Intent intent = new Intent(ForgotPassword.this,LoginActivity.class);
-//                                    startActivity(intent);
-//                                }
-//                                else {
-//                                    // Registration failed
-//                                    Toast.makeText(
-//                                            getApplicationContext(), "Registration failed!!" + " Please try again later", Toast.LENGTH_LONG).show();
-//                                }
-//                            }
-//                        });
-
                 mAuth.sendPasswordResetEmail(usn1)
                         .addOnCompleteListener(new OnCompleteListener<Void>() {
                             @Override

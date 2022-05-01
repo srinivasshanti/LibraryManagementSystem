@@ -10,19 +10,31 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LibraryMangementSystem">
         <activity
+            android:name=".ShowBooks"
+            android:exported="false" />
+        <activity
+            android:name=".Sem"
+            android:exported="false" />
+        <activity
+            android:name=".Main"
+            android:exported="false" />
+        <activity
+            android:name=".About"
+            android:exported="false" />
+        <activity
             android:name=".SignIn"
             android:exported="false" />
         <activity
             android:name=".LoginActivity"
             android:exported="false" />
         <activity
-            android:name=".Main"
+            android:name=".MainActivity"
             android:exported="false" />
         <activity
             android:name=".ForgotPassword"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".Book"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
