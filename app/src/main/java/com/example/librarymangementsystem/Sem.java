@@ -62,47 +62,47 @@ public class Sem extends AppCompatActivity {
         sem3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Call(3,s);
+                Call("3",s);
             }
         });
 
         sem4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Call(4,s);
+                Call("4",s);
             }
         });
 
         sem5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Call(5,s);
+                Call("5",s);
             }
         });
 
         sem6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Call(6,s);
+                Call("6",s);
             }
         });
 
         sem7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Call(7,s);
+                Call("7",s);
             }
         });
 
         sem8.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Call(8,s);
+                Call("8",s);
             }
         });
     }
 
-    public void Call(int no, String s){
+    public void Call(String no, String s){
         Intent intent = new Intent(Sem.this,ShowBooks.class);
         intent.putExtra("sem",no);
         intent.putExtra("clicked",s);

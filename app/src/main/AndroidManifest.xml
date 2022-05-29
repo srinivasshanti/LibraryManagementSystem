@@ -16,25 +16,19 @@
             android:name=".Sem"
             android:exported="false" />
         <activity
-            android:name=".Main"
+            android:name=".Book"
             android:exported="false" />
         <activity
             android:name=".About"
             android:exported="false" />
         <activity
-            android:name=".SignIn"
-            android:exported="false" />
-        <activity
             android:name=".LoginActivity"
             android:exported="false" />
         <activity
+            android:name=".Main"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
-            android:exported="false" />
-        <activity
-            android:name=".ForgotPassword"
-            android:exported="false" />
-        <activity
-            android:name=".Book"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

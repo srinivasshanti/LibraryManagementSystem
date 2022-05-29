@@ -114,8 +114,6 @@ public class Book extends AppCompatActivity {
                 Call(bio.getText().toString());
             }
         });
-
-
     }
 
     private void Call(String s){

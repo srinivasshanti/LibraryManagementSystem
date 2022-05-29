@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">LibraryMangementSystem</string>
+    <string name="Pratheek">
+        <a href="https://www.linkedin.com/in/pratheek-shankar-6146aa20a/">Pratheek Shankar</a>
+    </string>
+
+    <string name="Srinivas">
+        <a href="https://www.linkedin.com/in/srinivas-shanti-641172190/">Shanti Srinivas</a>
+    </string>
+
+    <string name="Akshay">
+        <a href="https://www.linkedin.com/in/padmashali-akshay-devanand-1749a4190/">Padmashali Akshay</a>
+    </string>
+
+
 </resources>
